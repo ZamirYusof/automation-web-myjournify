@@ -32,13 +32,6 @@ export default defineConfig({
         trace: 'on-first-retry',
         headless: true,
         screenshot: 'only-on-failure',
-        userAgent:
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
-            '(KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
-        extraHTTPHeaders: {
-            'accept-language': 'en-US,en;q=0.9',
-        },
-        viewport: { width: 1280, height: 720 },
     },
   /* Configure projects for major browsers */
   projects: [
