@@ -55,6 +55,14 @@ export class JournifyPage {
         await this.page.keyboard.press('Enter');
         const resultButton = this.page.locator('role=button').filter({ hasText: term });
         await expect(resultButton.first()).toBeVisible();
+
+        // ✅ Take only the first result
+        const firstResult = resultButton.first();
+
+        // ✅ Capture the full text of the button
+        const buttonText = await firstResult.innerText();
+        console.log(`Button text: ${buttonText}`);
+
     }
 
     async assertPageTitleContains(keyword: string) {

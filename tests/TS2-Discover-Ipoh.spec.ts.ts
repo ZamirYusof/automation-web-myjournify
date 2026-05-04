@@ -10,7 +10,7 @@ test('Journify homepage navigation', async ({ page }) => {
     // Navigate to Discover section and perform search for specific destination
     await journify.clickDiscover();
     await journify.assertPageTitleContains('Personal Travel');
-    await journify.search('Phuket');
+    await journify.search('Ipoh');
 
     // Navigate to Book Flight + Hotel
     await journify.goto();
@@ -19,5 +19,6 @@ test('Journify homepage navigation', async ({ page }) => {
     // Switch back to the first tab
     await journify.switchBackToMainTab();
 
-    //npx playwright test --project=chromium tests/example.spec.ts --debug --heade
+    //npx playwright test --project=chromium tests/example.spec.ts --debug --headed
+    //npx playwright test --project=firefox 
 });
