@@ -21,4 +21,5 @@ test('Journify homepage navigation', async ({ page }) => {
 
     //npx playwright test --project=chromium tests/example.spec.ts --debug --headed
     //npx playwright test --project=firefox 
+    //test
 });
