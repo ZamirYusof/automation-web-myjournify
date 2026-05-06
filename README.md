@@ -1,9 +1,9 @@
-**Playwright Test Automation – MyJournify  **
-This project automates core user journeys on the MyJournify website using Playwright with a Page Object Model (POM) structure for maintainability and scalability. It integrates seamlessly into a CI/CD pipeline via GitHub Actions, and can enable cross‑browser test execution if required.
+## 🚀 Playwright Test Automation - MyJournify
+This project automates core user journeys on the MyJournify website using Playwright with a Page Object Model (POM) structure for maintainability and scalability. It integrates seamlessly into a CI/CD pipeline via GitHub Actions, enabling structured reporting and cross‑browser test execution when required. 
 
-## 🚀 Getting Started
+## Getting Started
 
-This project uses **Playwright** for end‑to‑end testing. To run it locally, please follow these steps:
+To run it locally, please follow these steps:
 
 ### 1. Prerequisites
 * **Visual Studio (Windows)**  
